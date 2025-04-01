@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: Adds a background to see the gaps */
+  }
+  
+  .button-list {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Adds a gap between each row */
+    box-sizing: border-box;
+    /* Removed position: absolute, top, and left since we're centering */
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+    padding: 8px 15px 8px 22px;
+    background-color: #f5f5f5;
+    border: 1px solid #d3d3d3; /* Each row has its own border */
+    border-radius: 4px; /* Optional: Adds slight rounding to each row */
+    transition: all 0ms;
+  }
+  
+  .button-row input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #007bff;
+  }
+  
+  /* Default state */
+  .button-row[data-variant="default"] {
+    background-color: #FFFFFF;
+    color: #333;
+  }
+  
+  /* Variant2 (Hover) */
+  .button-row[data-variant="variant2"] {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+  
+  /* Variant3 (Press) */
+  .button-row[data-variant="variant3"] {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+  
+  /* Variant4 (Click) */
+  .button-row[data-variant="variant4"] {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+  
+  /* Variant5 (Mouse move outside) */
+  .button-row[data-variant="variant5"] {
+    background-color: #FFFFFF;
+    color: #333;
+  }
+  
+  /* Variant6 (Hover) */
+  .button-row[data-variant="variant6"] {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+  
+  /* Variant7 (Press) */
+  .button-row[data-variant="variant7"] {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+  
+  /* Variant8 (Hover) */
+  .button-row[data-variant="variant8"] {
+    background-color: #FFFFFF;
+    color: #000;
+  }

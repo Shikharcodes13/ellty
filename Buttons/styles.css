@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.action-btn {
+    width: 340px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background: #FFCE22;
+    color: #000;
+    
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn:hover {
+    background: #FFD84D;
+}
+
+.action-btn:active {
+    background: #FFCE22;
+}

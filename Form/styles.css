@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.page-selector {
+    width: 300px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #EEEEEE;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(20, 20, 20, 0.1), 0px 0px 4px rgba(20, 20, 20, 0.1);
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    justify-content: space-between;
+}
+
+.option input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    
+    cursor: pointer;
+    order: 2; /* Moves checkbox to the right */
+}
+
+.option label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    order: 1; /* Keeps label on the left */
+}
+
+.divider {
+    height: 1px;
+    background-color: #EEEEEE;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.divider-all {
+    height: 0.1px;
+    background-color: #EEEEEE;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.done-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFCE22;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+
+.done-btn:hover {
+    background-color: #E8B900;
+}
